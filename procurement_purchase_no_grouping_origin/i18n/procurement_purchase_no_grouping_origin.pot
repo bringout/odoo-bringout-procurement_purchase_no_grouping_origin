@@ -1,0 +1,70 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* procurement_purchase_no_grouping_origin
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-01-25 12:07+0000\n"
+"PO-Revision-Date: 2026-01-25 12:07+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: procurement_purchase_no_grouping_origin
+#: model:ir.model,name:procurement_purchase_no_grouping_origin.model_res_company
+msgid "Companies"
+msgstr ""
+
+#. module: procurement_purchase_no_grouping_origin
+#: model:ir.model.fields.selection,name:procurement_purchase_no_grouping_origin.selection__product_category__procured_purchase_grouping__origin
+#: model:ir.model.fields.selection,name:procurement_purchase_no_grouping_origin.selection__res_company__procured_purchase_grouping__origin
+msgid "Group by Origin"
+msgstr ""
+
+#. module: procurement_purchase_no_grouping_origin
+#: model:ir.model.fields,field_description:procurement_purchase_no_grouping_origin.field_product_category__procured_purchase_grouping
+#: model:ir.model.fields,field_description:procurement_purchase_no_grouping_origin.field_res_company__procured_purchase_grouping
+msgid "Procured Purchase Grouping"
+msgstr ""
+
+#. module: procurement_purchase_no_grouping_origin
+#: model:ir.model,name:procurement_purchase_no_grouping_origin.model_product_category
+msgid "Product Category"
+msgstr ""
+
+#. module: procurement_purchase_no_grouping_origin
+#: model:ir.model,name:procurement_purchase_no_grouping_origin.model_purchase_order_line
+msgid "Purchase Order Line"
+msgstr ""
+
+#. module: procurement_purchase_no_grouping_origin
+#: model:ir.model.fields,help:procurement_purchase_no_grouping_origin.field_product_category__procured_purchase_grouping
+msgid ""
+"Select the behaviour for grouping procured purchases for the the products of this category:\n"
+"* Standard grouping (default): Procurements will generate purchase orders as always, grouping lines and orders when possible.\n"
+"* No line grouping: If there are any open purchase order for the same supplier, it will be reused, but lines won't be merged.\n"
+"* No order grouping: This option will prevent any kind of grouping.\n"
+"* <empty>: If no value is selected, system-wide default will be used.\n"
+"* Product category grouping: This option groups products in the same purchase order that belongs to the same product category."
+msgstr ""
+
+#. module: procurement_purchase_no_grouping_origin
+#: model:ir.model.fields,help:procurement_purchase_no_grouping_origin.field_res_company__procured_purchase_grouping
+msgid ""
+"Select the behaviour for grouping procured purchases for the the products of this category:\n"
+"* Standard grouping: Procurements will generate purchase orders as always, grouping lines and orders when possible.\n"
+"* No line grouping: If there are any open purchase order for the same supplier, it will be reused, but lines won't be merged.\n"
+"* No order grouping: This option will prevent any kind of grouping.\n"
+"* <empty>: If no value is selected, system-wide default will be used.\n"
+"* Product category grouping: This option groups products in the same purchase order that belongs to the same product category."
+msgstr ""
+
+#. module: procurement_purchase_no_grouping_origin
+#: model:ir.model,name:procurement_purchase_no_grouping_origin.model_stock_rule
+msgid "Stock Rule"
+msgstr ""
