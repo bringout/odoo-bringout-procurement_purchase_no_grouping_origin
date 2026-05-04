@@ -15,7 +15,7 @@ msgstr "Kompanije"
 #. module: procurement_purchase_no_grouping_origin
 #: model:ir.model.fields.selection,name:procurement_purchase_no_grouping_origin.selection__product_category__procured_purchase_grouping__origin
 msgid "Group by Origin"
-msgstr "Group by Origin"
+msgstr ""
 
 #. module: procurement_purchase_no_grouping_origin
 #: model:ir.model.fields,field_description:procurement_purchase_no_grouping_origin.field_product_category__procured_purchase_grouping
